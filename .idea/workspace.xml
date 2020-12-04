@@ -7,10 +7,18 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fb5e667-0622-4779-82b5-3898ac120380" name="默认的" comment="第一次提交文件" />
+    <list default="true" id="5fb5e667-0622-4779-82b5-3898ac120380" name="默认的" comment="第一次提交文件">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +42,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1l2ti7hkzvNLDP41ZICqAMR04Rg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,19 +54,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -70,6 +80,10 @@
       <option name="presentableId" value="Default" />
       <updated>1606807137758</updated>
       <workItem from="1606807139122" duration="1170000" />
+      <workItem from="1606808328756" duration="1503000" />
+      <workItem from="1606879422980" duration="5619000" />
+      <workItem from="1606960390035" duration="4362000" />
+      <workItem from="1607045015624" duration="2776000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交文件">
       <created>1606807800162</created>
@@ -85,7 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606808192829</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="第一次提交文件">
+      <created>1606808380160</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606808380160</updated>
+    </task>
+    <task id="LOCAL-00004" summary="第一次提交文件">
+      <created>1606808581932</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606808581932</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,11 +124,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交文件" />
@@ -111,9 +152,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-227" y="248" width="1720" height="840" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606807891822" />
-    <state x="866" y="179" key="new project wizard" timestamp="1606807624543">
+    <state x="910" y="279" key="Vcs.Push.Dialog.v2" timestamp="1606808603279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="866" y="179" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606807624543" />
+    <state x="910" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606808603279" />
+    <state x="866" y="179" key="new project wizard" timestamp="1606808347583">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="866" y="179" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606808347583" />
   </component>
 </project>
