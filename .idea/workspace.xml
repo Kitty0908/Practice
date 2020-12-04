@@ -19,7 +19,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fb5e667-0622-4779-82b5-3898ac120380" name="默认的" comment="1" />
+    <list default="true" id="5fb5e667-0622-4779-82b5-3898ac120380" name="默认的" comment=" 创建demo-model-1">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-model-1/demo-model-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-model-1/demo-model-1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-model-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-model-1/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +61,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -85,7 +94,7 @@
       <workItem from="1606879422980" duration="5619000" />
       <workItem from="1606960390035" duration="4362000" />
       <workItem from="1607045015624" duration="2776000" />
-      <workItem from="1607073316230" duration="381000" />
+      <workItem from="1607073316230" duration="1468000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交文件">
       <created>1606807800162</created>
@@ -136,7 +145,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607073663959</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="删除demo-model-1">
+      <created>1607073722632</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607073722632</updated>
+    </task>
+    <task id="LOCAL-00009" summary=" 创建demo-model-1">
+      <created>1607073843757</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607073843757</updated>
+    </task>
+    <task id="LOCAL-00010" summary=" 创建demo-model-1">
+      <created>1607073850624</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607073850624</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,27 +199,28 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交文件" />
     <MESSAGE value="添加Maven支持" />
-    <MESSAGE value="删除demo-model-1" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="删除demo-model-1" />
+    <MESSAGE value=" 创建demo-model-1" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 创建demo-model-1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="617" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1607073424940">
+    <state x="617" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1607073789633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="617" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607073424940" />
+    <state x="617" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607073789633" />
     <state x="82" y="180" width="1720" height="840" key="DiffContextDialog" timestamp="1607073697265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="82" y="180" width="1720" height="840" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607073697265" />
-    <state x="910" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607073671864">
+    <state x="910" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607073725975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="910" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607073671864" />
-    <state x="866" y="179" key="new project wizard" timestamp="1607073393190">
+    <state x="910" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607073725975" />
+    <state x="866" y="179" key="new project wizard" timestamp="1607073776659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="866" y="179" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1607073393190" />
+    <state x="866" y="179" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1607073776659" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607073579973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
