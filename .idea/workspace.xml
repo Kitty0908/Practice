@@ -16,9 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fb5e667-0622-4779-82b5-3898ac120380" name="默认的" comment="第一次提交文件">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5fb5e667-0622-4779-82b5-3898ac120380" name="默认的" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +82,7 @@
       <workItem from="1606879422980" duration="5619000" />
       <workItem from="1606960390035" duration="4362000" />
       <workItem from="1607045015624" duration="2776000" />
+      <workItem from="1607073316230" duration="381000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交文件">
       <created>1606807800162</created>
@@ -113,7 +112,28 @@
       <option name="project" value="LOCAL" />
       <updated>1606808581932</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="添加Maven支持">
+      <created>1607073491560</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607073491560</updated>
+    </task>
+    <task id="LOCAL-00006" summary="删除demo-model-1">
+      <created>1607073591122</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607073591122</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1">
+      <created>1607073663959</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607073663959</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,20 +165,31 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次提交文件" />
+    <MESSAGE value="添加Maven支持" />
+    <MESSAGE value="删除demo-model-1" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-227" y="248" width="1720" height="840" key="DiffContextDialog" timestamp="1606807891822">
+    <state x="617" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1607073424940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-227" y="248" width="1720" height="840" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606807891822" />
-    <state x="910" y="279" key="Vcs.Push.Dialog.v2" timestamp="1606808603279">
+    <state x="617" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607073424940" />
+    <state x="82" y="180" width="1720" height="840" key="DiffContextDialog" timestamp="1607073697265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="910" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606808603279" />
-    <state x="866" y="179" key="new project wizard" timestamp="1606808347583">
+    <state x="82" y="180" width="1720" height="840" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607073697265" />
+    <state x="910" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607073671864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="866" y="179" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606808347583" />
+    <state x="910" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607073671864" />
+    <state x="866" y="179" key="new project wizard" timestamp="1607073393190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="866" y="179" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1607073393190" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607073579973">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607073579973" />
   </component>
 </project>
