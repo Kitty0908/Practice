@@ -19,14 +19,17 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fb5e667-0622-4779-82b5-3898ac120380" name="默认的" comment=" 创建demo-model-1">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/resources/mybatis-config.xml" afterDir="false" />
+    <list default="true" id="5fb5e667-0622-4779-82b5-3898ac120380" name="默认的" comment="添加mybatis及数据库相关">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/java/com/wds/dao/CityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/java/com/wds/domain/Area.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/java/com/wds/domain/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/java/com/wds/domain/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/resources/com.wds/mapper/CityMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-model-1/demo-model-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-model-1/demo-model-1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-model-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-model-1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-model-1/src/main/resources/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-model-1/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-model-1/src/main/resources/mybatis-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +63,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -68,14 +72,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\gitSource\Practice\demo-model-1\src\main\resources\com.wds" />
+      <recent name="F:\gitSource\Practice\demo-model-1\src\main\resources\mapper" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,7 +106,8 @@
       <workItem from="1606879422980" duration="5619000" />
       <workItem from="1606960390035" duration="4362000" />
       <workItem from="1607045015624" duration="2776000" />
-      <workItem from="1607073316230" duration="1468000" />
+      <workItem from="1607073316230" duration="2361000" />
+      <workItem from="1607131975342" duration="5328000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交文件">
       <created>1606807800162</created>
@@ -166,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607073850624</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="添加mybatis及数据库相关">
+      <created>1607075059960</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607075059960</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,13 +222,30 @@
     <MESSAGE value="1" />
     <MESSAGE value="删除demo-model-1" />
     <MESSAGE value=" 创建demo-model-1" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 创建demo-model-1" />
+    <MESSAGE value="添加mybatis及数据库相关" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加mybatis及数据库相关" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="535" y="361" key="#SQL_方言" timestamp="1607136913511">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="535" y="361" key="#SQL_方言/0.0.1920.1040@0.0.1920.1040" timestamp="1607136913511" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607141567187">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607141567187" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1607135799808">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607135799808" />
     <state x="617" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1607073789633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="617" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607073789633" />
+    <state x="552" y="178" width="816" height="730" key="#意图" timestamp="1607132382179">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" width="816" height="730" key="#意图/0.0.1920.1040@0.0.1920.1040" timestamp="1607132382179" />
     <state x="82" y="180" width="1720" height="840" key="DiffContextDialog" timestamp="1607073697265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

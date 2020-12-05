@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wds.dao.CityDao">
+
+    <resultMap id="City" type="com.wds.domain.City">
+
+    </resultMap>
+
+    <select id="selectOne" resultType="City">
+        select cityid,cityname,citysize,aid from city where cityid=#{cityid}
+    </select>
+</mapper>
