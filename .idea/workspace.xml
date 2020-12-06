@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fb5e667-0622-4779-82b5-3898ac120380" name="默认的" comment="demo-model-1 update">
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-model-1/src/main/resources/com.wds/mapper/CityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-model-1/src/main/resources/com/wds/mapper/CityMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-model-1/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-model-1/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-model-1/src/test/java/test/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-model-1/src/test/java/test/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +121,7 @@
       <workItem from="1607045015624" duration="2776000" />
       <workItem from="1607073316230" duration="2361000" />
       <workItem from="1607131975342" duration="8998000" />
-      <workItem from="1607218788144" duration="4494000" />
+      <workItem from="1607218788144" duration="5241000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交文件">
       <created>1606807800162</created>
@@ -220,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607235535503</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="demo-model-1 update">
+      <created>1607235848033</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1607235848033</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +297,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="82" y="180" width="1720" height="840" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607073697265" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1607236324872">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607236324872" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1607236324872">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607236324872" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1607236324872">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607236324872" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1607236324872">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607236324872" />
     <state x="910" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607073725975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

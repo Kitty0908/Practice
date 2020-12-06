@@ -4,8 +4,8 @@
 
     <resultMap id="selectCity" type="com.wds.domain.City">
         <id column="cityid" property="cityid" />
-        <result column="cityname" property="" />
-        <result column="citysize" property="" />
+        <result column="cityname" property="cityname" />
+        <result column="citysize" property="citysize" />
         <association property="area" javaType="com.wds.domain.Area" column="aid" select="selectAreaForCity"/>
     </resultMap>
 
@@ -15,7 +15,7 @@
         <association property="country" javaType="com.wds.domain.Country" select="selectCountryForArea" column="cid"/>
     </resultMap>
 
-    <select id="selectAreaForCity" resultMap="com.wds.domain.Area">
+    <select id="selectAreaForCity" resultMap="selectAreaByCity">
         select aid,aname,cid from area where aid=#{aid}
     </select>
 
