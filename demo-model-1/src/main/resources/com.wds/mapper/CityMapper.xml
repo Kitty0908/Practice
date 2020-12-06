@@ -2,11 +2,28 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.wds.dao.CityDao">
 
-    <resultMap id="City" type="com.wds.domain.City">
-
+    <resultMap id="selectCity" type="com.wds.domain.City">
+        <id column="cityid" property="cityid" />
+        <result column="cityname" property="" />
+        <result column="citysize" property="" />
+        <association property="area" javaType="com.wds.domain.Area" column="aid" select="selectAreaForCity"/>
     </resultMap>
 
-    <select id="selectOne" resultType="City">
+    <resultMap id="selectAreaByCity" type="com.wds.domain.Area">
+        <id column="aid" property="aid"/>
+        <result column="aname" property="aname"/>
+        <association property="country" javaType="com.wds.domain.Country" select="selectCountryForArea" column="cid"/>
+    </resultMap>
+
+    <select id="selectAreaForCity" resultMap="com.wds.domain.Area">
+        select aid,aname,cid from area where aid=#{aid}
+    </select>
+
+    <select id="selectCountryForArea" resultType="com.wds.domain.Country">
+        select cid,cname from country where cid=#{cid}
+    </select>
+
+    <select id="selectOne" resultMap="selectCity">
         select cityid,cityname,citysize,aid from city where cityid=#{cityid}
     </select>
 </mapper>
