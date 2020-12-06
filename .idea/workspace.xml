@@ -19,17 +19,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fb5e667-0622-4779-82b5-3898ac120380" name="默认的" comment="添加mybatis及数据库相关">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/java/com/wds/dao/CityDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/java/com/wds/domain/Area.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/java/com/wds/domain/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/java/com/wds/domain/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/resources/com.wds/mapper/CityMapper.xml" afterDir="false" />
+    <list default="true" id="5fb5e667-0622-4779-82b5-3898ac120380" name="默认的" comment="demo-model-1 update">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-model-1/src/test/java/test/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-model-1/src/main/resources/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-model-1/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-model-1/src/main/resources/mybatis-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +63,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
@@ -77,21 +73,6 @@
       <recent name="F:\gitSource\Practice\demo-model-1\src\main\resources\com.wds" />
       <recent name="F:\gitSource\Practice\demo-model-1\src\main\resources\mapper" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -107,7 +88,7 @@
       <workItem from="1606960390035" duration="4362000" />
       <workItem from="1607045015624" duration="2776000" />
       <workItem from="1607073316230" duration="2361000" />
-      <workItem from="1607131975342" duration="5328000" />
+      <workItem from="1607131975342" duration="8998000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交文件">
       <created>1606807800162</created>
@@ -186,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607075059960</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="demo-model-1 update">
+      <created>1607158405709</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607158405709</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +211,8 @@
     <MESSAGE value="删除demo-model-1" />
     <MESSAGE value=" 创建demo-model-1" />
     <MESSAGE value="添加mybatis及数据库相关" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加mybatis及数据库相关" />
+    <MESSAGE value="demo-model-1 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo-model-1 update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="535" y="361" key="#SQL_方言" timestamp="1607136913511">
@@ -246,6 +235,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" width="816" height="730" key="#意图/0.0.1920.1040@0.0.1920.1040" timestamp="1607132382179" />
+    <state x="440" y="94" key="#项目结构" timestamp="1607158487035">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1607158487035" />
     <state x="82" y="180" width="1720" height="840" key="DiffContextDialog" timestamp="1607073697265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
