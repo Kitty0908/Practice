@@ -25,37 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fb5e667-0622-4779-82b5-3898ac120380" name="默认的" comment="demo-model-1 update">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/demo_model_1_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/java/com/wds/action/UserAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/java/com/wds/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/java/com/wds/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/java/com/wds/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/java/mymvc/ControllerNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/java/mymvc/DispatcherServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/java/mymvc/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/java/mymvc/ModelAndView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/java/mymvc/RequestParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/java/mymvc/ResponseBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/src/main/resources/ApplicationContext.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/web/WEB-INF/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-model-1/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_model_1_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_model_1_war_exploded/WEB-INF/classes/com/wds/dao/CityDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_model_1_war_exploded/WEB-INF/classes/com/wds/domain/Area.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_model_1_war_exploded/WEB-INF/classes/com/wds/domain/City.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_model_1_war_exploded/WEB-INF/classes/com/wds/domain/Country.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_model_1_war_exploded/WEB-INF/classes/com/wds/mapper/CityMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_model_1_war_exploded/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_model_1_war_exploded/WEB-INF/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_model_1_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo_model_1_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Practice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-model-1/demo-model-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-model-1/demo-model-1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-model-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-model-1/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +80,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/demo-model-1/src/main/java" />
-    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.last.edited" value="项目" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2137931" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -252,7 +223,7 @@
       <workItem from="1607305803892" duration="2995000" />
       <workItem from="1607407294647" duration="2288000" />
       <workItem from="1607418093850" duration="2226000" />
-      <workItem from="1607479040226" duration="7169000" />
+      <workItem from="1607479040226" duration="7378000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交文件">
       <created>1606807800162</created>
@@ -366,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607236606483</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="demo-model-1 update">
+      <created>1607505744416</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1607505744416</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,14 +494,14 @@
     </state>
     <state width="1293" height="282" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607505214795" />
     <state width="1293" height="282" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1607500135425" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1607504918494">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1607505881900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607504918494" />
-    <state x="910" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607236643642">
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607505881900" />
+    <state x="910" y="279" key="Vcs.Push.Dialog.v2" timestamp="1607505747676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="910" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607236643642" />
+    <state x="910" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607505747676" />
     <state x="658" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607504502620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
