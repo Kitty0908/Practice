@@ -17,11 +17,11 @@ import java.util.*;
 public class Handler {
 
     //属性--->存储请求名字和真实类全名之间的对应关系
-    private final Map<String,String> realClassNameMap = new HashMap<>();
+    private final Map<String,String> realClassNameMap = new HashMap();
     //属性--->存储请求名字和每一个Controller控制层类的对象之间的关系(想让这个对象实现单例管理机制 延迟加载)
-    private final Map<String,Object> objectMap = new HashMap<>();
+    private final Map<String,Object> objectMap = new HashMap();
     //属性--->存储某一个Controller对象中的所有方法   对象  一堆方法
-    private final Map<Object,Map<String,Method>> objectMethodMap = new HashMap<>();
+    private final Map<Object,Map<String,Method>> objectMethodMap = new HashMap();
 
     //块
     //静态块 那么上面的集合也需要是静态的
@@ -86,7 +86,7 @@ public class Handler {
             //获取当前clazz中的所有方法
             Method[] methods = clazz.getDeclaredMethods();
             //创建一个map用于存储所有的方法
-            Map<String,Method> methodMap = new HashMap<>();
+            Map<String,Method> methodMap = new HashMap();
             for(Method method : methods){
                 methodMap.put(method.getName(),method);
             }

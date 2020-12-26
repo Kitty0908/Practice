@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wds.dao.AreaDao">
+
+    <resultMap id="selectArea" type="com.wds.domain.Area">
+        <id property="aid" column="aid"/>
+        <result column="aname" property="aname"/>
+        <association property="country" select="selectCountryByArea" column="cid"/>
+    </resultMap>
+
+    <select id="selectCountryByArea" resultType="com.wds.domain.Country">
+        select cid,cname from country where
+        <choose>
+            <when test="#{cid} != null">
+                <if test="#{cid} != null">
+                    cid = #{cid}
+                </if>
+            </when>
+            <otherwise>
+                cid = 2
+            </otherwise>
+        </choose>
+    </select>
+
+    <select id="selectOne" resultMap="selectArea">
+        select aid,aname,cid from Area where aid = #{aid};
+    </select>
+</mapper>
