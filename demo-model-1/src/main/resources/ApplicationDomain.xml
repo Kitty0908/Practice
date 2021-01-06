@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <context:property-placeholder location="classpath:ApplicationContext.properties" ></context:property-placeholder>
+    <bean name="city" class="com.wds.domain.City">
+        <property name="cityid" value="#{11}" />
+        <property name="cityname" value="${cc}" />
+        <property name="citysize" value="#{120}" />
+        <property name="area">
+            <bean class="com.wds.domain.Area">
+                <constructor-arg name="aid" value="1" ></constructor-arg>
+                <constructor-arg name="aname" value="安徽" ></constructor-arg>
+                <constructor-arg name="country">
+                    <null></null>
+                </constructor-arg>
+            </bean>
+
+        </property>
+    </bean>
+</beans>
