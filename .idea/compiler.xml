@@ -8,10 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo-model-1" />
         <module name="SpringJdbcTest" />
+        <module name="SpringEmailTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo-model-1" target="1.5" />
+      <module name="SpringEmailTest" target="1.5" />
       <module name="SpringJdbcTest" target="1.5" />
     </bytecodeTargetLevel>
   </component>
