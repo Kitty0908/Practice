@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Practice.iml" filepath="$PROJECT_DIR$/.idea/Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringEmailTest/SpringEmailTest.iml" filepath="$PROJECT_DIR$/SpringEmailTest/SpringEmailTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringJdbcTest/SpringJdbcTest.iml" filepath="$PROJECT_DIR$/SpringJdbcTest/SpringJdbcTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringTimerTest/SpringTimerTest.iml" filepath="$PROJECT_DIR$/SpringTimerTest/SpringTimerTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-model-1/demo-model-1.iml" filepath="$PROJECT_DIR$/demo-model-1/demo-model-1.iml" />
     </modules>
   </component>

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SpringTimerTest" />
         <module name="demo-model-1" />
         <module name="SpringJdbcTest" />
         <module name="SpringEmailTest" />
@@ -15,6 +16,7 @@
       <module name="demo-model-1" target="1.5" />
       <module name="SpringEmailTest" target="1.5" />
       <module name="SpringJdbcTest" target="1.5" />
+      <module name="SpringTimerTest" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

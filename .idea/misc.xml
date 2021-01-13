@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/demo-model-1/pom.xml" />
         <option value="$PROJECT_DIR$/SpringJdbcTest/pom.xml" />
         <option value="$PROJECT_DIR$/SpringEmailTest/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringTimerTest/pom.xml" />
       </list>
     </option>
   </component>
