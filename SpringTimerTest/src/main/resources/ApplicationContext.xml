@@ -2,20 +2,25 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        https://www.springframework.org/schema/beans/spring-beans.xsd"
+       default-lazy-init="false"
+>
 
-    <bean id="springTask" class="SpringTask"></bean>
+    <bean id="springTask" class="SpringTask"/>
 
+<!--    创建一个SpringTimer对象，用来对Timer对象进行管控-->
     <bean id="jobDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean" >
         <property name="targetObject" ref="springTask" />
         <property name="targetMethod" value="doIt" />
     </bean>
 
+    <!-- 创建一个Spring 提供的触发器对象，达到指定条件时执行 -->
     <bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean" >
         <property name="jobDetail" ref="jobDetail" />
-        <property name="cronExpression" value="0 37 16 * * ?" />
+        <property name="cronExpression" value="30 55 16 * * ?" />
     </bean>
 
+    <!-- Spring 提供的用来管理以及执行触发器对象 -->
     <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
         <property name="triggers" >
             <list>

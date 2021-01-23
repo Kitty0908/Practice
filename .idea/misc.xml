@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/SpringJdbcTest/pom.xml" />
         <option value="$PROJECT_DIR$/SpringEmailTest/pom.xml" />
         <option value="$PROJECT_DIR$/SpringTimerTest/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringAnnotationTest/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringVideo/pom.xml" />
       </list>
     </option>
   </component>
