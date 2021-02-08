@@ -6,10 +6,6 @@
 
     <display-name>SpringVideo</display-name>
 
-    <welcome-file-list>
-        <welcome-file>index.jsp</welcome-file>
-    </welcome-file-list>
-
     <!-- 配置springmvc -->
     <servlet>
         <servlet-name>dispatcher</servlet-name>
@@ -23,7 +19,7 @@
 
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
-        <url-pattern>/*.do</url-pattern>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
 
 </web-app>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:mvc="http://www.springframework.org/schema/mvc"
        xmlns:context="http://www.springframework.org/schema/context"
+       xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
          http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
@@ -25,20 +25,23 @@
     <!-- 扫描bean -->
     <context:component-scan base-package="com.wds.springVideo"/>
 
-    <mvc:default-servlet-handler/>
+    <!--  它会对进入 DispatcherServlet 的请求进行筛查，如果发现是没有经过映射的请求，就将该请求交由
+     WEB应用服务器默认的 Servlet 处理，如果不是静态资源的请求，由DispatcherServlet继续处理。一般
+     WEB 应用服务器默认的 Servlet 的名称都是 default。  -->
+<!--    <mvc:default-servlet-handler/>-->
     <!-- 静态资源处理， -->
-    <!--    <mvc:resources mapping="/static/imgs/**" location="/static/imgs/"></mvc:resources>-->
+    <mvc:resources mapping="/static/img/**" location="/static/img/"></mvc:resources>
     <!--    <mvc:resources mapping="/static/css/**" location="/static/css/"></mvc:resources>-->
     <!--    <mvc:resources mapping="/static/fonts/**" location="/static/fonts/"></mvc:resources>-->
     <!--    <mvc:resources mapping="/static/js/**" location="/static/js/"></mvc:resources>-->
 
 
-    <mvc:interceptors>
+<!--    <mvc:interceptors>-->
 
-        <!-- 自动登录拦截器-->
-        <mvc:interceptor>
-            <mvc:mapping path="/**"/>
-            <bean class="com.wds.springVideo.interceptor.AutoLoginInterceptor"></bean>
-        </mvc:interceptor>
-    </mvc:interceptors>
+<!--        &lt;!&ndash; 自动登录拦截器&ndash;&gt;-->
+<!--        <mvc:interceptor>-->
+<!--            <mvc:mapping path="/**"/>-->
+<!--            <bean class="com.wds.springVideo.interceptor.AutoLoginInterceptor"></bean>-->
+<!--        </mvc:interceptor>-->
+<!--    </mvc:interceptors>-->
 </beans>
