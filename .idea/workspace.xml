@@ -5,7 +5,7 @@
   </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="SpringVideo:war exploded" />
+      <artifact name="SpringUploadTest:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -27,64 +27,329 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fb5e667-0622-4779-82b5-3898ac120380" name="默认的" comment="SpringTimerTest update and springVideo create">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/controller/PageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/controller/VCodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/dao/BannerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/dao/CourseTopicDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/dao/CourseTypeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/dao/CourseVideoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/dao/ToolsItemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/dao/ToolsTypeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/dto/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/entity/Banner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/entity/CourseTopic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/entity/CourseType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/entity/CourseVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/entity/ToolsItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/entity/ToolsType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/resources/mapper/bannerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/resources/mapper/courseTopicMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/resources/mapper/courseTypeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/resources/mapper/courseVideoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/resources/mapper/toolsItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/resources/mapper/toolsTypeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/resources/mapper/userMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/web/WEB-INF/jsp/common/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/web/WEB-INF/jsp/common/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/web/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/web/static/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/web/static/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/web/static/img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringVideo/src/test/java/DaoTest.java" afterDir="false" />
+    <list default="true" id="5fb5e667-0622-4779-82b5-3898ac120380" name="默认的" comment="springVideo update">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SpringUploadTest_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ulisesbocchio_jasypt_spring_boot_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ulisesbocchio_jasypt_spring_boot_starter_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_expression_processor_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_43.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_43.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_5_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_25_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasypt_jasypt_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo-Conf/Spring-Boot-Demo-Conf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo-Conf/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo-Conf/src/main/java/com/wds/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo-Conf/src/main/java/com/wds/conf/FoodConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo-Conf/src/main/java/com/wds/conf/VegetablesConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo-Conf/src/main/java/com/wds/domain/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo-Conf/src/main/java/com/wds/domain/Vegetables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo-Conf/src/main/java/com/wds/template/controller/JsonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo-Conf/src/main/java/com/wds/util/JasyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo-Conf/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo-Conf/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo-Conf/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo-HelloWorld/Spring-Boot-Demo-HelloWorld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo-HelloWorld/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo-HelloWorld/src/main/java/com/wds/ApplicationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo-HelloWorld/src/main/java/com/wds/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-Boot-Demo-HelloWorld/src/main/java/com/wds/domain/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringUploadTest/SpringUploadTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringUploadTest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringUploadTest/src/main/java/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringUploadTest/src/main/resources/SpringContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringUploadTest/src/main/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringUploadTest/src/main/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/exception/UserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/interceptor/UserExceptionHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/util/Contains.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/java/com/wds/thymeleaf/ThymeleafApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/java/com/wds/thymeleaf/bean/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/java/com/wds/thymeleaf/bean/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/java/com/wds/thymeleaf/controller/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/java/com/wds/thymeleaf/dao/PersonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/java/com/wds/thymeleaf/service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/java/com/wds/thymeleaf/service/impl/PersonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/static/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/templates/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-03-web-restful/src/test/java/com/wds/springboot03webrestful/SpringBoot03WebRestfulApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/java/com/wds/jpa/JpaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/java/com/wds/jpa/bean/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/java/com/wds/jpa/controller/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/java/com/wds/jpa/repository/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/java/com/wds/jpa/service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/java/com/wds/jpa/service/impl/PersonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/static/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/test/java/com/wds/jpa/JpaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/spring-boot-demo01-template.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/src/main/java/com/wds/template/TemplateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/src/main/java/com/wds/template/bean/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/src/main/java/com/wds/template/controller/FTLController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/src/main/java/com/wds/template/util/YamlPropertySourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/src/main/resources/message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/src/main/resources/restaurant.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/src/main/resources/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/src/main/resources/templates/freemarker/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/src/main/resources/templates/thymeleaf/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-template/src/test/java/com/wds/springbootdemo01template/SpringBootDemo01TemplateApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/java/com/wds/thymeleaf/ThymeleafApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/java/com/wds/thymeleaf/bean/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/java/com/wds/thymeleaf/controller/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/java/com/wds/thymeleaf/dao/PersonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/java/com/wds/thymeleaf/service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/java/com/wds/thymeleaf/service/impl/PersonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/static/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/templates/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/src/test/java/com/wds/thymeleaf/ThymeleafApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpringVideo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SpringVideo_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/demo_model_1_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAnnotationTest/SpringAnnotationTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAnnotationTest/SpringAnnotationTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringEmailTest/SpringEmailTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringEmailTest/SpringEmailTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringJdbcTest/SpringJdbcTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringJdbcTest/SpringJdbcTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringTimerTest/SpringTimerTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringTimerTest/SpringTimerTest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringVideo/SpringVideo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringVideo/SpringVideo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringVideo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringVideo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringVideo/src/main/resources/ApplicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringVideo/src/main/resources/jdbcConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringVideo/src/main/resources/jdbcConfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringVideo/src/main/resources/spring/sping-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringVideo/src/main/resources/spring/spring-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringVideo/src/main/resources/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringVideo/src/main/resources/spring/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringVideo/src/main/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringVideo/src/main/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringVideo/src/main/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringVideo_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringVideo_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/controller/VCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/controller/VCodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringVideo/src/main/java/com/wds/springVideo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringVideo/src/main/web/WEB-INF/jsp/common/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SpringVideo/src/main/web/WEB-INF/jsp/common/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-model-1/demo-model-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-model-1/demo-model-1.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -93,6 +358,8 @@
         <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Jsp File" />
+        <option value="spring-beans.schema" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -110,7 +377,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="C:/Program Files/Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Program Files\Maven\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -126,110 +394,182 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringVideo/src/main/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-04-orm-jpa/src/main/java/com/wds/jpa" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22097379" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\gitSource\Practice\SpringVideo\src\main" />
-      <recent name="F:\gitSource\Practice\SpringVideo\src" />
-      <recent name="F:\gitSource\Practice\SpringVideo\src\main\web\WEB-INF" />
-      <recent name="F:\gitSource\Practice\SpringVideo\src\main\web" />
-      <recent name="F:\gitSource\Practice\SpringVideo\src\main\web\WEB-INF\jsp" />
+      <recent name="F:\gitSource\Practice\spring-boot-demo01-thymeleaf-curd\src\main\resources\static" />
+      <recent name="F:\gitSource\Practice\spring-boot-demo01-template\src\main\resources\templates" />
+      <recent name="F:\gitSource\Practice\spring-boot-demo01-template\src\main\resources\templates\freemarker" />
+      <recent name="F:\gitSource\Practice\spring-boot-demo01-template\src\main\resources" />
+      <recent name="F:\gitSource\Practice\spring-boot-demo01-template\src\main\resources\META-INF\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\gitSource\Practice\SpringVideo\src\main\web" />
-      <recent name="F:\gitSource\Practice\SpringVideo\src\main\resources\mapper" />
-      <recent name="F:\gitSource\Practice\SpringVideo\src\main\java\com\wds\springVideo\dao" />
-      <recent name="F:\gitSource\Practice\SpringVideo\src\main\java\com\wds\springVideo\entries" />
-      <recent name="F:\gitSource\Practice\demo-model-1\src\main\java" />
+      <recent name="F:\gitSource\Practice\spring-boot-04-orm-jpa\src\main\java\com\wds\jpa" />
+      <recent name="F:\gitSource\Practice\spring-boot-04-orm-jpa\src\main\resources\static" />
+      <recent name="F:\gitSource\Practice\spring-boot-04-orm-jpa\src\main\resources\templates" />
+      <recent name="F:\gitSource\Practice\spring-boot-03-web-restful\src" />
+      <recent name="F:\gitSource\Practice\spring-boot-demo01-thymeleaf-curd\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.381">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.SpringBoot04OrmJpaApplication">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wds.thymeleaf.bean.Test" />
+      <module name="spring-boot-03-web-restful" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wds.thymeleaf.bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaoTest.test17" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringVideo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DaoTest" />
-      <option name="METHOD_NAME" value="test17" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="mvnw" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/spring-boot-demo01-thymeleaf/mvnw" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/spring-boot-demo01-thymeleaf" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ApplicationDemo" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Spring-Boot-Demo-HelloWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wds.ApplicationDemo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaoTest.test19" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringVideo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DaoTest" />
-      <option name="METHOD_NAME" value="test19" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Spring-Boot-Demo-Conf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wds.DemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <additionalParameters>
+        <param>
+          <option name="enabled" value="true" />
+          <option name="name" value="jasypt.encryptor.password" />
+          <option name="value" value="123123#@!" />
+        </param>
+      </additionalParameters>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaoTest.test20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringVideo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DaoTest" />
-      <option name="METHOD_NAME" value="test20" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="SpringBoot03WebRestfulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-03-web-restful" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wds.springboot03webrestful.SpringBoot03WebRestfulApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaoTest.test21" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringVideo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DaoTest" />
-      <option name="METHOD_NAME" value="test21" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="SpringBoot04OrmJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-04-orm-jpa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wds.jpa.JpaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaoTest.test22" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringVideo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DaoTest" />
-      <option name="METHOD_NAME" value="test22" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="SpringBootDemo01ThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-demo01-thymeleaf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wds.thymeleaf.ThymeleafApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-demo01-template" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wds.template.TemplateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-demo01-template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wds.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wds.template.TemplateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-03-web-restful" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wds.thymeleaf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wds.thymeleaf.ThymeleafApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.381" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.381" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=utf8" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
-        <artifact name="SpringVideo:war exploded">
+        <artifact name="SpringUploadTest:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -294,29 +634,36 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="SpringVideo:war exploded" />
+          <artifact name="SpringUploadTest:war exploded" />
         </option>
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DaoTest.test17" />
-      <item itemvalue="JUnit.DaoTest.test19" />
-      <item itemvalue="JUnit.DaoTest.test20" />
-      <item itemvalue="JUnit.DaoTest.test21" />
-      <item itemvalue="JUnit.DaoTest.test22" />
+      <item itemvalue="Shell Script.mvnw" />
+      <item itemvalue="Spring Boot.TemplateApplication" />
+      <item itemvalue="Spring Boot.SpringBootDemo01ThymeleafApplication" />
+      <item itemvalue="Spring Boot.SpringBoot03WebRestfulApplication" />
+      <item itemvalue="Spring Boot.SpringBoot04OrmJpaApplication" />
+      <item itemvalue="Spring Boot.ApplicationDemo" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.ThymeleafApplication" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.381" />
+      <item itemvalue="应用程序.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DaoTest.test22" />
-        <item itemvalue="JUnit.DaoTest.test20" />
-        <item itemvalue="JUnit.DaoTest.test21" />
-        <item itemvalue="JUnit.DaoTest.test19" />
-        <item itemvalue="JUnit.DaoTest.test17" />
+        <item itemvalue="应用程序.Test" />
+        <item itemvalue="Spring Boot.ThymeleafApplication" />
+        <item itemvalue="Shell Script.mvnw" />
+        <item itemvalue="Spring Boot.DemoApplication" />
+        <item itemvalue="Spring Boot.ApplicationDemo" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5fb5e667-0622-4779-82b5-3898ac120380" name="默认的" comment="" />
@@ -383,7 +730,32 @@
       <workItem from="1612618099770" duration="196000" />
       <workItem from="1612618314294" duration="136000" />
       <workItem from="1612669149335" duration="10155000" />
-      <workItem from="1612760490089" duration="3375000" />
+      <workItem from="1612760490089" duration="6782000" />
+      <workItem from="1613358783476" duration="43000" />
+      <workItem from="1613733409028" duration="6413000" />
+      <workItem from="1613784060968" duration="6576000" />
+      <workItem from="1613801981675" duration="12689000" />
+      <workItem from="1613891992391" duration="4323000" />
+      <workItem from="1613910516070" duration="2176000" />
+      <workItem from="1613963898698" duration="3690000" />
+      <workItem from="1613980867943" duration="27204000" />
+      <workItem from="1614047375222" duration="2942000" />
+      <workItem from="1614157966209" duration="3582000" />
+      <workItem from="1614229934750" duration="11672000" />
+      <workItem from="1614255666692" duration="2499000" />
+      <workItem from="1614408911547" duration="477000" />
+      <workItem from="1614409403565" duration="5270000" />
+      <workItem from="1614414837805" duration="31000" />
+      <workItem from="1614414885627" duration="5274000" />
+      <workItem from="1614494771143" duration="7919000" />
+      <workItem from="1614575607986" duration="13663000" />
+      <workItem from="1614653547389" duration="311000" />
+      <workItem from="1614653876747" duration="732000" />
+      <workItem from="1614654635002" duration="7488000" />
+      <workItem from="1614738204527" duration="17773000" />
+      <workItem from="1614851465775" duration="1473000" />
+      <workItem from="1614924803019" duration="3251000" />
+      <workItem from="1614928128654" duration="1255000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交文件">
       <created>1606807800162</created>
@@ -588,7 +960,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611377754486</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="springVideo update">
+      <created>1612765102831</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1612765102831</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,13 +1013,14 @@
     <MESSAGE value="SpringTimerTest create" />
     <MESSAGE value="SpringTimerTest update" />
     <MESSAGE value="SpringTimerTest update and springVideo create" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringTimerTest update and springVideo create" />
+    <MESSAGE value="springVideo update" />
+    <option name="LAST_COMMIT_MESSAGE" value="springVideo update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="878" y="404" key="#BuildArtifactsBeforeRunChooser" timestamp="1611992043405">
+    <state x="878" y="404" key="#BuildArtifactsBeforeRunChooser" timestamp="1613908810935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="878" y="404" key="#BuildArtifactsBeforeRunChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611992043405" />
+    <state x="878" y="404" key="#BuildArtifactsBeforeRunChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613908810935" />
     <state x="841" y="474" key="#Custom_Plugin_Repositories" timestamp="1612618174679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -653,37 +1033,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="902" y="385" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1611925226075" />
-    <state x="552" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611992072160">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="143" y="0" width="1041" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614255455096">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="552" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611992072160" />
-    <state x="787" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611307420012">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="143" y="0" width="1041" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1614255455096" />
+    <state x="392" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613910617662" />
+    <state x="630" y="254" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614411496368">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="630" y="254" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1614411496368" />
     <state x="787" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611307420012" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1612762296364">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="612" y="187" key="#com.intellij.ide.util.MemberChooser" timestamp="1614591702319">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1612762296364" />
-    <state x="617" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1611305108648">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="612" y="187" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1614591702319" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614233937651" />
+    <state x="494" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1614924976798">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="617" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611305108648" />
+    <state x="494" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1614924976798" />
+    <state x="617" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614230034360" />
     <state x="816" y="237" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1611925214555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="816" y="237" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1611925214555" />
-    <state x="790" y="426" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1611931548699">
+    <state x="790" y="426" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1613911191987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="790" y="426" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611931548699" />
+    <state x="790" y="426" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613911191987" />
     <state x="790" y="230" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1607504917186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="230" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607504917186" />
-    <state x="669" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1611307653000">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="535" y="350" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1614412318578">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="535" y="350" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1614412318578" />
     <state x="669" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611307653000" />
     <state x="730" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610614178136">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -693,18 +1078,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1610962246065" />
-    <state x="689" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1611390902081">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="551" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614925761441">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="689" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611390902081" />
+    <state x="551" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1614925761441" />
+    <state x="689" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614160818739" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609045889133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609045889133" />
-    <state x="690" y="274" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1611901109044">
+    <state x="690" y="274" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1613909063484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="274" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611901109044" />
+    <state x="690" y="274" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613909063484" />
     <state x="552" y="178" width="816" height="730" key="#意图" timestamp="1607132382179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -717,10 +1103,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="342" key="#通知/0.0.1920.1040@0.0.1920.1040" timestamp="1609213594435" />
-    <state x="440" y="94" key="#项目结构" timestamp="1611992070567">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="352" y="0" key="#项目结构" timestamp="1614928071192">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="440" y="94" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1611992070567" />
+    <state x="352" y="0" key="#项目结构/0.0.1536.824@0.0.1536.824" timestamp="1614928071192" />
+    <state x="440" y="94" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1614158002459" />
     <state x="711" y="380" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609061472742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -729,74 +1116,132 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="82" y="180" width="1720" height="840" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610612214578" />
-    <state x="440" y="394" key="FileChooserDialogImpl" timestamp="1611992975928">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="352" y="238" key="FileChooserDialogImpl" timestamp="1614654330556">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="440" y="394" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611992975928" />
-    <state width="1293" height="282" key="GridCell.Tab.0.bottom" timestamp="1612682137758">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="352" y="238" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614654330556" />
+    <state x="440" y="394" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614051272828" />
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom" timestamp="1614928748102">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612682137758" />
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614928748102" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614236213534" />
     <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1607500135425" />
-    <state width="1293" height="282" key="GridCell.Tab.0.center" timestamp="1612682137757">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="220" key="GridCell.Tab.0.center" timestamp="1614928748102">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612682137757" />
+    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614928748102" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614236213534" />
     <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1607500135424" />
-    <state width="1293" height="282" key="GridCell.Tab.0.left" timestamp="1612682137756">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="220" key="GridCell.Tab.0.left" timestamp="1614928748102">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612682137756" />
+    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614928748102" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614236213534" />
     <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1607500135424" />
-    <state width="1293" height="282" key="GridCell.Tab.0.right" timestamp="1612682137757">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right" timestamp="1614928748102">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612682137757" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614928748102" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614236213534" />
     <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1607500135424" />
-    <state width="1293" height="282" key="GridCell.Tab.1.bottom" timestamp="1612682137759">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="220" key="GridCell.Tab.1.bottom" timestamp="1614928748102">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612682137759" />
+    <state width="1493" height="220" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614928748102" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614236213535" />
     <state width="1293" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1607500135425" />
-    <state width="1293" height="282" key="GridCell.Tab.1.center" timestamp="1612682137758">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="220" key="GridCell.Tab.1.center" timestamp="1614928748102">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612682137758" />
+    <state width="1493" height="220" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1614928748102" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614236213535" />
     <state width="1293" height="282" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1607500135425" />
-    <state width="1293" height="282" key="GridCell.Tab.1.left" timestamp="1612682137758">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="220" key="GridCell.Tab.1.left" timestamp="1614928748102">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612682137758" />
+    <state width="1493" height="220" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1614928748102" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614236213534" />
     <state width="1293" height="282" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1607500135425" />
-    <state width="1293" height="282" key="GridCell.Tab.1.right" timestamp="1612682137758">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="220" key="GridCell.Tab.1.right" timestamp="1614928748102">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612682137758" />
+    <state width="1493" height="220" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1614928748102" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614236213535" />
     <state width="1293" height="282" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1607500135425" />
-    <state width="1293" height="282" key="GridCell.Tab.2.bottom" timestamp="1612682137759">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="270" key="GridCell.Tab.2.bottom" timestamp="1614415591586">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612682137759" />
+    <state width="1493" height="270" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614415591586" />
+    <state width="1293" height="282" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614091192534" />
     <state width="1293" height="282" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1607500135425" />
-    <state width="1293" height="282" key="GridCell.Tab.2.center" timestamp="1612682137759">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="270" key="GridCell.Tab.2.center" timestamp="1614415591586">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612682137759" />
+    <state width="1493" height="270" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1614415591586" />
+    <state width="1293" height="282" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614091192534" />
     <state width="1293" height="282" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1607500135425" />
-    <state width="1293" height="282" key="GridCell.Tab.2.left" timestamp="1612682137759">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="270" key="GridCell.Tab.2.left" timestamp="1614415591586">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612682137759" />
+    <state width="1493" height="270" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1614415591586" />
+    <state width="1293" height="282" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614091192534" />
     <state width="1293" height="282" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1607500135425" />
-    <state width="1293" height="282" key="GridCell.Tab.2.right" timestamp="1612682137759">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="270" key="GridCell.Tab.2.right" timestamp="1614415591586">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612682137759" />
+    <state width="1493" height="270" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1614415591586" />
+    <state width="1293" height="282" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614091192534" />
     <state width="1293" height="282" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1607500135425" />
-    <state x="333" y="150" width="1273" height="852" key="SettingsEditor" timestamp="1612618448376">
+    <state width="1493" height="261" key="GridCell.Tab.3.bottom" timestamp="1614414504248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614414504248" />
+    <state width="1493" height="261" key="GridCell.Tab.3.center" timestamp="1614414504248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1614414504248" />
+    <state width="1493" height="261" key="GridCell.Tab.3.left" timestamp="1614414504248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1614414504248" />
+    <state width="1493" height="261" key="GridCell.Tab.3.right" timestamp="1614414504248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1614414504248" />
+    <state width="1493" height="261" key="GridCell.Tab.4.bottom" timestamp="1614414498673">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614414498673" />
+    <state width="1493" height="261" key="GridCell.Tab.4.center" timestamp="1614414498672">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1614414498672" />
+    <state width="1493" height="261" key="GridCell.Tab.4.left" timestamp="1614414498672">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1614414498672" />
+    <state width="1493" height="261" key="GridCell.Tab.4.right" timestamp="1614414498672">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1614414498672" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1614654553782">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1614654553782" />
+    <state x="440" y="115" key="NewModule_or_Project.wizard" timestamp="1614654078062">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="440" y="115" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1614654078062" />
+    <state x="531" y="334" key="Registry" timestamp="1614233855038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="333" y="150" width="1273" height="852" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612618448376" />
+    <state x="531" y="334" key="Registry/0.0.1920.1040@0.0.1920.1040" timestamp="1614233855038" />
+    <state x="266" y="0" width="1273" height="852" key="SettingsEditor" timestamp="1614925115033">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="266" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1614925115033" />
+    <state x="333" y="150" width="1273" height="852" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614236238166" />
     <state x="910" y="279" key="Vcs.Push.Dialog.v2" timestamp="1611377715211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -809,25 +1254,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="773" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610009486862" />
-    <state x="543" y="248" width="833" height="642" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1610537376808">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="434" y="183" width="667" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1614415065449">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="434" y="183" width="667" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1614415065449" />
     <state x="543" y="248" width="833" height="642" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1610537376808" />
-    <state x="685" y="118" width="549" height="804" key="find.popup" timestamp="1611307197772">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="548" y="93" width="530" height="638" key="find.popup" timestamp="1614766667635">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="548" y="93" width="530" height="638" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1614766667635" />
     <state x="685" y="118" width="549" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611307197772" />
-    <state x="866" y="179" key="new project wizard" timestamp="1611292227395">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="296" y="109" key="new project wizard" timestamp="1614924965433">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="866" y="179" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1611292227395" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610618468764">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="296" y="109" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1614924965433" />
+    <state x="866" y="179" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1614230025315" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1614586043825">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1614586043825" />
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1614583521061">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1614583521061" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610618468764" />
-    <state x="640" y="202" key="spring file set editor" timestamp="1611929624257">
+    <state x="640" y="202" key="spring file set editor" timestamp="1613908708255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="202" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1611929624257" />
+    <state x="640" y="202" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1613908708255" />
   </component>
 </project>

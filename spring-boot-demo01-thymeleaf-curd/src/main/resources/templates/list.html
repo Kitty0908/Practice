@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" rel="stylesheet">
+    <link rel="stylesheet" th:href="@{/static/css/bootstrap.css}">
+    <!--    <script th:src="@{/static/js/bootstrap.bundle.min.js}"-->
+    <!--            crossorigin="anonymous">-->
+    <!--    </script>-->
+    <meta charset="UTF-8">
+    <title>武当派</title>
+</head>
+<body>
+
+<h2 class="text-center">武当派人员一览</h2>
+<div align="center" class="">
+    <table class="col-10 align-content-center table">
+        <thead>
+        <tr>
+            <td scope="col"><b>#</b></td>
+            <td scope="col"><b>姓名</b></td>
+            <td scope="col"><b>职务</b></td>
+            <td scope="col"><b>操作</b></td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="person:${personList}">
+            <th scope="row" th:text="${personList.indexOf(person)+1}">id</th>
+            <td th:text="${person.getName()}">name</td>
+            <td th:text="${person.getRole()}">role</td>
+            <td><a class="btn btn-primary" href="#"
+                   role="button"
+                   th:href="@{/toEdit(index=${personList.indexOf(person)})}">编辑</a>
+                <a class="btn btn-primary" href="#"
+                   role="button"
+                   th:href="@{/del(index=${personList.indexOf(person)})}">删除</a>
+            </td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <a class="btn btn-primary" href="#" role="button" th:href="@{/toAdd}">add</a>
+        </tr>
+        </tfoot>
+    </table>
+</div>
+</body>
+</html>

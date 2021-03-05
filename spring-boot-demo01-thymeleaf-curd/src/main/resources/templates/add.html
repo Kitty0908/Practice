@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/static/css/bootstrap.css}">
+    <title>帮派招新</title>
+</head>
+<body>
+<form method="post" th:action="@{/add}" class="form-group">
+    <div>
+        <input name="name" type="text">
+    </div>
+    <div>
+        <input name="role" type="text"/>
+    </div>
+    <button>提交</button>
+</form>
+</body>
+</html>

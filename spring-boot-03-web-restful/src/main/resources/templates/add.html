@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/static/css/bootstrap.css}">
+    <script crossorigin="anonymous"
+            integrity="sha384-LCPyFKQyML7mqtS+4XytolfqyqSlcbB3bvDuH9vX2sdQMxRonb/M3b9EmhCNNNrV"
+            th:src="@{/static/js/bootstrap.bundle.min.js}">
+    </script>
+    <title>帮派招新</title>
+</head>
+<body>
+<form method="post" th:action="@{/person}">
+    <div>
+        <input name="name" type="text">
+    </div>
+    <div>
+        <input name="role" type="text"/>
+    </div>
+    <button>提交</button>
+</form>
+</body>
+</html>

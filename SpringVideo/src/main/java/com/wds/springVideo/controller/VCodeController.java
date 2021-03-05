@@ -1,6 +1,7 @@
 package com.wds.springVideo.controller;
 
 import cn.hutool.core.util.RandomUtil;
+import com.wds.springVideo.util.Contains;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -52,7 +53,7 @@ public class VCodeController {
         resp.setHeader("Cache-Control","no-cache");
         resp.setHeader("Pragma","no-cache");
 
-        session.setAttribute("vCode",sb.toString());
+        session.setAttribute(Contains.SESSION_VCODE,sb.toString());
 
         ServletOutputStream os = null;
         try {

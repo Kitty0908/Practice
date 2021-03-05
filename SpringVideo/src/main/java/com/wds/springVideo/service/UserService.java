@@ -5,4 +5,6 @@ import com.wds.springVideo.entity.User;
 public interface UserService {
 
     public User checkEmail(String email);
+
+    public User userReg(User user);
 }

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="org.springframework.beans.factory.annotation.Value" />
+    </list>
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -9,6 +14,14 @@
         <option value="$PROJECT_DIR$/SpringTimerTest/pom.xml" />
         <option value="$PROJECT_DIR$/SpringAnnotationTest/pom.xml" />
         <option value="$PROJECT_DIR$/SpringVideo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringUploadTest/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Boot-Demo1/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Boot-Demo-Conf/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-demo01-template/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-demo01-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-demo01-thymeleaf-curd/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-03-web-restful/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-04-orm-jpa/pom.xml" />
       </list>
     </option>
   </component>
