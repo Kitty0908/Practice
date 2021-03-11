@@ -1,0 +1,6 @@
+server:
+  port: 8090
+
+context:
+  listener:
+    classes: com.wds.listener.TestListener4
